@@ -2,32 +2,32 @@
 
 
 if(isset($_POST['hobbies'])) {
-    echo "Os hobbies escolhidos foram:<br>";
+    echo '<h4 style=" display:flex; justify-content:center;">'."Os hobbies escolhidos foram:<br>".'</h4>';
     foreach($_POST['hobbies'] as $hobby) {
-        echo $hobby . "<br>";
+        echo '<h4 style=" display:flex; justify-content:center;">'. $hobby . "<br>";
     }
 }
 else {
-    echo "Nenhum hobby foi escolhido! <br><br>";
+    echo '<h4 style=" display:flex; justify-content:center;">'."Nenhum hobby foi escolhido! <br><br>";
 }
 
 if(isset($_POST['carros'])) {
-    echo "Os tipos de carros escolhidos foram:<br>";
+    echo '<h4 style=" display:flex; justify-content:center;">'."Os tipos de carros escolhidos foram:<br>";
     foreach($_POST['carros'] as $carro) {
-        echo $carro . "<br>";
+        echo '<h4 style=" display:flex; justify-content:center;">'.$carro . "<br>";
     }
 }
 else {
-    echo "Nenhum tipo de carro foi escolhido! <br><br>";
+    echo '<h4 style=" display:flex; justify-content:center;">'."Nenhum tipo de carro foi escolhido! <br><br>";
 }
 
 if(isset($_POST['esportes'])) {
-    echo "Você selecionou a modalidade de esporte:<br/>";
+    echo '<h4 style=" display:flex; justify-content:center;">'."Você selecionou a modalidade de esporte:<br/>";
     foreach($_POST['esportes'] as $esporte) {
-        echo $esporte . "<br>";
+        echo '<h4 style=" display:flex; justify-content:center;">'.$esporte . "<br>";
     }
 }
 else {
-    echo "Nenhuma modalidade esportiva foi selecionada! <br/>";
+    echo '<h4 style=" display:flex; justify-content:center;">'."Nenhuma modalidade esportiva foi selecionada! <br/>";
 }
 ?>
