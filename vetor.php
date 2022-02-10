@@ -1,12 +1,5 @@
 <?php
 
-/*$Nome = $_POST["Nome"];
-$Sobrenome = $_POST["Sobrenome"];
-$RG = $_POST["RG"];
-$CPF = $_POST["CPF"];
-$Telefone = $_POST["Telefone"];
-$Endereco = $_POST["Endereco"];*/
-
 if(isset($_POST['hobbies'])) {
     echo "Os hobbies escolhidos foram:<br>";
     foreach($_POST['hobbies'] as $hobby) {
