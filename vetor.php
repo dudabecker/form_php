@@ -1,5 +1,6 @@
 <?php
 
+
 if(isset($_POST['hobbies'])) {
     echo "Os hobbies escolhidos foram:<br>";
     foreach($_POST['hobbies'] as $hobby) {
